@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "titats_backend": {
+      "main": "src/titats_backend/main.mo",
+      "type": "motoko"
+    },
+    "titats_frontend": {
+      "dependencies": [
+        "titats_backend"
+      ],
+      "source": [
+        "src/titats_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "titats_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
