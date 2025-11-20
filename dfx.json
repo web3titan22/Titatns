@@ -1,7 +1,19 @@
 {
   "canisters": {
     "titats_backend": {
-      "main": "src/titats_backend/main.mo",
+      "main": "src/titats_backend/History/History.mo",
+      "type": "motoko"
+    },
+    "titats_registry": {
+      "main": "src/titats_backend/Registry/Registry.mo",
+      "type": "motoko"
+    },
+    "titats_treasury": {
+      "main": "src/titats_backend/Treasury/Treasury.mo",
+      "type": "motoko"
+    },
+    "titats_types": {
+      "main": "src/titats_backend/Types/Types.mo",
       "type": "motoko"
     },
     "titats_frontend": {
